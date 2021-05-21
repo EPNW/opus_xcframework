@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "opus"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.summary      = "XCFramework for the opus codec."
     s.description  = <<-DESC
 	XCFramework for the opus codec.
