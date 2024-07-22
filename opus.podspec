@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "opus"
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
     s.summary      = "XCFramework for the opus codec."
     s.description  = <<-DESC
 	XCFramework for the opus codec.
@@ -53,9 +53,9 @@ Broadcom Corporation:
 https://datatracker.ietf.org/ipr/1526/
                   LICENSE
                 }
-	s.author           = { 'Eric Prokop und Nils Wieler Hard- und Softwareentwicklung GbR' => 'prokopwieler.hardundsoftware@gmail.com' }
+	s.author           = { 'EPNW GmbH' => 'contact@epnw.eu' }
     s.source       = { :git => "https://github.com/EPNW/opus_xcframework.git", :tag => "#{s.version}" }
     s.vendored_frameworks = "opus.xcframework"
-    s.platform = :ios, '9.0'
-    s.swift_version = '5.0'
+    s.platform = :ios, '13.0'
+    s.swift_version = '5.1'
 end
